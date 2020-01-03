@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url(/img/home/home-bg-intro.jpg);
+    background-repeat: no-repeat;
+    height: 727px;
+}
+
+.row{
+    padding-top: 32px;
+    padding-left: 140px;
+    padding-right: 163px;
+}
+
+.navbar-brand, .nav-link{
+    color: white;
+}
