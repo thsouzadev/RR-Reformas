@@ -4,12 +4,15 @@
     font-family: 'Poppins', sans-serif;
 }
 header{
-    background-image: url(/img/home/home-bg-intro.jpg);
+    background-image: url("../img/home/home-bg-intro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 727px;
 
+}
+li{
+    font-size: 18px;
 }
 .menu1{
     padding-top: 62px;
@@ -38,4 +41,61 @@ header{
 }
 .box h2{
     font-size: 38px;
+}
+.img1{
+    background-image: url("../img/home/home-construcao.jpg");
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.img2{
+    background-image: url("../img/home/home-reformas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-image: url("../img/home/home-pintura.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    background-image: url("../img/home/home-hidraulica.jpg");
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img5{
+    background-image: url("../img/home/home-eletrica.jpg");
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img6{
+    background-image: url("../img/home/home-projetos.jpg");
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    background-image: url("../img/home/bg-footer.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body .item{
+    font-weight: bold;
+    color: rgb(64, 81, 78);
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 45%;
+}
+footer h4{
+    border-bottom: 4px solid white;
 }
