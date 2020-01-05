@@ -1,105 +1,87 @@
-.button-white {
-    background: red!important;
-}
+/*Minimal Normalize*/
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/*Basic Tags*/
 header{
     background-image: url("../img/home/home-bg-intro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 1408px;
     height: 727px;
-
 }
-li{
+/*Menu Content*/
+.navbar-brand, .navbar{
     font-size: 18px;
 }
-.menu1{
-    padding-top: 62px;
-    padding-left: 140px;
-}
-.nav-link{
+.col-md-8, .col-md-12{
+    padding: 37px;
     color: rgba(255, 255, 255, 1);
-    font-weight: bold;
-}
-.navbar-brand{
-    text-align: center;
-    background-color: rgba(255, 255, 255, .8);
-}
-.box{
-    background-color: rgba(17, 153, 158, .5);
-    margin-top: 118px;
-    padding-top: 37px;
-    padding-left: 128px;
-    padding-right: 128px;
-    padding-bottom: 12px;
-    border-spacing: 16px;
-}
-.box h3{
+    background-color: rgba(17, 153, 158, 0.5);
+    top: 128px;
+    height: 242px;
     font-size: 40px;
-    font-weight: bold;
 }
-.box h2{
+.sextext{
     font-size: 38px;
 }
-.img1{
-    background-image: url("../img/home/home-construcao.jpg");
-    height: 240px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.btn{
+    color: white;
+    border: 3px solid white;
+    padding: 12px 13px 11px 14px;
+}
 
+/*Body content*/
+
+div.card-img-overlay{
+    padding: 15px 20px;
 }
-.img2{
-    background-image: url("../img/home/home-reformas.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+p {
+    padding: 16px;
 }
-.img3{
-    background-image: url("../img/home/home-pintura.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.img4{
-    background-image: url("../img/home/home-hidraulica.jpg");
-    height: 240px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.img5{
-    background-image: url("../img/home/home-eletrica.jpg");
-    height: 240px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.img6{
-    background-image: url("../img/home/home-projetos.jpg");
-    height: 240px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-footer{
-    background-image: url("../img/home/bg-footer.jpg");
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-body .item{
+h2.card-title{
+    margin-top: 22%;
+    padding: 13px 78px 12px 62px;
+    font-size: 18px;
     font-weight: bold;
-    color: rgb(64, 81, 78);
+    padding-top: ;
+}
+.boxcenter{
+    margin-top: 80px;
+}
+
+h2{
     background-color: rgba(255, 255, 255, 0.7);
-    margin-top: 45%;
+    margin: -5px;
+}
+
+/*footer*/
+footer{
+    font-size: 34px;
+    background-image: url("../img/home/bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+footer h3{
+    margin-top: 64px;
+    margin-left: 140px;
+    font-size: 34px;
+    border-bottom: 3px solid white;
 }
 footer p{
-    color: white; 
+    margin-left: 140px;
     font-size: 18px;
+}
+footer form{
+    margin-left: 123px;
+}
+img.text-hide{
+    padding: 25px;
+    border: 3px solid #30E3CA;
+    border-radius: 50%;
 }
