@@ -76,9 +76,28 @@ h2.card-title{
 .boxcenter1{
     margin-top: 80px;
 }
+h4.srtext{
+    font-size: 18px;    
+    font-weight: bold;
+    margin-top: 32px;
+}
 .boxcenter2{
     font-size: 24px;
     margin-top: 16px;
+    padding-bottom: 64px;
+}
+.boxcenter3{
+    font-size: 16px;
+    padding-bottom: 64px;
+    background-color: #E4F9F5;
+    background-size: cover;
+}
+
+.boxcenter2 h3{
+    font-size: 24px;
+}
+.boxcenter2 p{
+    font-size: 16px;
 }
 
 h2{
@@ -93,6 +112,21 @@ h2{
 .mdtext h3{
     font-size: 24px;
     margin-top: 16px;
+}
+.quoteimg{
+    background-image: url("../img/sobre/sobre-blockquote.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1366px;
+    height: 464px;
+}
+blockquote.qt{
+    font-size: 40px;
+}
+p.col-12{
+    top: 111px;
+    color: white;
 }
 /*footer*/
 footer{
