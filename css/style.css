@@ -48,7 +48,7 @@ a.nav-link:hover{
     color: gray;
 }
 .bkcenter{
-    margin-top: 128px;
+    margin-top: 64px;
 }
 .bgcenter{
     background-color: rgba(17, 153, 158, 0.5);
@@ -62,9 +62,17 @@ a.nav-link:hover{
 .txt16{
     font-size: 16px;
 }
+.txt24{
+    font-size: 24px;
+    font-weight: 600
+}
 .txt32{
     font-size: 32px;
     font-weight: initial;
+}
+.txt34{
+    font-size: 34px;
+    border-bottom:3px solid white ;
 }
 .txt40{
     font-size: 40px;
@@ -88,7 +96,7 @@ a.nav-link:hover{
     transition: 0.20s ease-in;
 }
 .btnbb{
-    margin-top: 20px
+    padding: 20px;
 }
 .btn-bt{
     text-decoration: none;
@@ -107,8 +115,9 @@ a.nav-link:hover{
     margin-top: 32px;
 }
 .highlight1{
+    width: 1366px;
+    margin-top: 64px;
     background-color: #E4F9F5;
-    padding: 32px;
 }
 
 /*Body home*/
@@ -139,7 +148,12 @@ a.nav-link:hover{
     background-color: #E4F9F5;
     background-size: cover;
 }
-
+.prjimg{
+    padding: 32px 15px 64px 15px;
+}
+.prjtx{
+    padding-top: 16px;
+}
 .boxcenter2 h3{
     font-size: 24px;
 }
@@ -170,46 +184,28 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
     width: 1366px;
     height: 464px;
 }
-.info{
-    color: white;
-    margin-top: 64px;
-    margin-left: 140px;
+.ftend{
+    padding-top: 64px;
 }
-.itemh{
-    font-size: 34px;
-    border-bottom: 4px solid white;
-}
-.itemt{
-    font-size: 18px;
-
+.ftsocial{
+    width: 256px;
+    height: 82px;
 }
 
-.logomk{
-    padding: 0;
-}
-.finfo{
-    background-color: #E4F9F5;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 20px 500px 19px 500px;
-    
-    
-}
-.social{
-    margin-top: 32px;
-}
-.sociall{
-    background-color: #30E3CA;
-    margin: 16px;
-    padding: 15px;
+.ftimg{
+    background-color: rgba(48, 227, 203, 0.7);
+    padding: 18px;
+    margin: 8px;
     border-radius: 50%;
 }
-.msg{
-    color: white;
-    margin-top: 64px;
-    margin-left: 140px;
+.logomk{
+    background-color: #E4F9F5;
 }
-
+.logomktx{
+    border: 1px solid #707070;
+    padding: 18px;
+}
