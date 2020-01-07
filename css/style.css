@@ -55,6 +55,11 @@ a.nav-link:hover{
     padding: 36px;
 }
 
+.bgcenter1{
+    background-color: rgba(17, 153, 158, 0.5);
+    padding: 86px;
+}
+
 /*Universal Classes*/
 .txt18{
     font-size: 18px;
@@ -79,6 +84,13 @@ a.nav-link:hover{
     font-weight: 600;
     color: white;
 }
+.mgb32{
+    margin-bottom: 32px;
+}
+.mgt32{
+    margin-top: 32px;
+}
+
 .btnwb{
     margin-top: 32px;
 }
@@ -114,10 +126,15 @@ a.nav-link:hover{
 .orf{
     margin-top: 32px;
 }
+.highlight{
+    width: 1366px;
+}
 .highlight1{
     width: 1366px;
-    margin-top: 64px;
     background-color: #E4F9F5;
+}
+.map{
+    margin-top: 129px;
 }
 
 /*Body home*/
@@ -137,28 +154,12 @@ a.nav-link:hover{
     
 }
 
-.boxcenter2{
-    font-size: 24px;
-    margin-top: 16px;
-    padding-bottom: 64px;
-}
-.boxcenter3{
-    font-size: 16px;
-    padding-bottom: 64px;
-    background-color: #E4F9F5;
-    background-size: cover;
-}
+
 .prjimg{
     padding: 32px 15px 64px 15px;
 }
 .prjtx{
     padding-top: 16px;
-}
-.boxcenter2 h3{
-    font-size: 24px;
-}
-.boxcenter2 p{
-    font-size: 16px;
 }
 
 
@@ -176,6 +177,13 @@ blockquote.qt{
 p.col-12{
     top: 111px;
     color: white;
+}
+.inpform{
+    
+    border: 3px solid #40514E;
+}
+.ctt{
+    margin: 32px;
 }
 
 /*footer*/
@@ -207,5 +215,6 @@ footer{
 }
 .logomktx{
     border: 1px solid #707070;
+    font-size: 18px;
     padding: 18px;
 }
