@@ -5,82 +5,129 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*Basic Tags*/
-header{
-    width: 1408px;
-    height: 727px;
-}
+/*Top Tags*/
 .tophome{
     background-image: url("../img/home/home-bg-intro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 727px;
 }
 .topsobre{
     background-image: url("../img/sobre/bg-sobre.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 727px;
 }
 .topservicos{
     background-image: url("../img/servicos/bg-servicos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 727px;
 }
 .topcontato{
     background-image: url("../img/contato/bg-contato.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 727px;
 }
 
 /*Menu Content*/
-.navbar-brand, .navbar{
-    font-size: 18px;
+.menu{
+    padding-top: 64px;
 }
-.col-md-8, .col-md-12{
-    padding: 37px;
-    color: rgba(255, 255, 255, 1);
+
+a.nav-link{
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+a.nav-link:hover{
+    color: gray;
+}
+.bkcenter{
+    margin-top: 128px;
+}
+.bgcenter{
     background-color: rgba(17, 153, 158, 0.5);
-    top: 128px;
-    height: 242px;
-    font-size: 40px;
-}
-.col-lg-12{
-    font-size: 14px;
-}
-.sextext{
-    font-size: 38px;
-}
-.btn{
-    color: white;
-    border: 3px solid white;
-    padding: 12px 13px 11px 14px;
+    padding: 36px;
 }
 
-/*Body content*/
-
-div.card-img-overlay{
-    padding: 15px 20px;
-}
-p {
-    padding: 16px;
-}
-h2.card-title{
-    margin-top: 22%;
-    padding: 13px 78px 12px 62px;
+/*Universal Classes*/
+.txt18{
     font-size: 18px;
-    font-weight: bold;
 }
+.txt16{
+    font-size: 16px;
+}
+.txt32{
+    font-size: 32px;
+    font-weight: initial;
+}
+.txt40{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.btnwb{
+    margin-top: 32px;
+}
+.btn-wt{
+    text-decoration: none;
+    font-size: 16px;
+    border: 3px solid #fff;
+    color: #fff; 
+    padding: 5px 15px;
+}
+.btn-wt:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #40514E;
+    transition: 0.20s ease-in;
+}
+.btnbb{
+    margin-top: 20px
+}
+.btn-bt{
+    text-decoration: none;
+    font-size: 16px;
+    border: 3px solid #40514E;
+    color: #40514E; 
+    padding: 5px 15px;
+}
+.btn-bt:hover {
+    text-decoration: none;
+    background: #40514E;
+    color: #fff;
+    transition: 0.20s ease-in;
+}
+.orf{
+    margin-top: 32px;
+}
+.highlight1{
+    background-color: #E4F9F5;
+    padding: 32px;
+}
+
+/*Body home*/
 .boxcenter1{
     margin-top: 80px;
 }
-h4.srtext{
-    font-size: 18px;    
+
+.card-title{
+    color: #40514E;
     font-weight: bold;
-    margin-top: 32px;
+    font-size: 18px;
+    padding: 8px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 25%;
+    background-color: rgba(255, 255, 255, .7);
+    
 }
+
 .boxcenter2{
     font-size: 24px;
     margin-top: 16px;
@@ -100,19 +147,7 @@ h4.srtext{
     font-size: 16px;
 }
 
-h2{
-    background-color: rgba(255, 255, 255, 0.7);
-    margin: -5px;
-}
-.mdtext{
-    margin-top: 75px;
-    padding-bottom: 64px;
-    background-color: #E4F9F5;
-}
-.mdtext h3{
-    font-size: 24px;
-    margin-top: 16px;
-}
+
 .quoteimg{
     background-image: url("../img/sobre/sobre-blockquote.jpg");
     background-size:cover;
@@ -128,6 +163,7 @@ p.col-12{
     top: 111px;
     color: white;
 }
+
 /*footer*/
 footer{
     background-image: url("../img/home/bg-footer.jpg");
@@ -150,11 +186,17 @@ footer{
     font-size: 18px;
 
 }
+
+.logomk{
+    padding: 0;
+}
 .finfo{
+    background-color: #E4F9F5;
     font-size: 18px;
     font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 19px;
+    padding: 20px 500px 19px 500px;
+    
+    
 }
 .social{
     margin-top: 32px;
@@ -170,3 +212,4 @@ footer{
     margin-top: 64px;
     margin-left: 140px;
 }
+
