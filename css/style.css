@@ -42,10 +42,12 @@
 
 a.nav-link{
     color: #fff;
-    text-shadow: 2px 2px black;
+    
 }
 a.nav-link:hover{
-    color: gray;
+    color: yellow;
+    transition-delay: 0.5s ease-out;
+    
 }
 .bkcenter{
     margin-top: 64px;
@@ -65,7 +67,11 @@ a.nav-link:hover{
     font-size: 18px;
 }
 .txt16{
-    font-size: 16px;
+    font-size: 16px;    
+    line-height: 2em;
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-top: 16px;
 }
 .txt24{
     font-size: 24px;
@@ -99,7 +105,7 @@ a.nav-link:hover{
     font-size: 16px;
     border: 3px solid #fff;
     color: #fff; 
-    padding: 5px 15px;
+    padding: 10px 15px;
 }
 .btn-wt:hover {
     text-decoration: none;
@@ -115,7 +121,7 @@ a.nav-link:hover{
     font-size: 16px;
     border: 3px solid #40514E;
     color: #40514E; 
-    padding: 5px 15px;
+    padding: 10px 15px;
 }
 .btn-bt:hover {
     text-decoration: none;
@@ -151,7 +157,14 @@ a.nav-link:hover{
     margin-right: -5px;
     margin-top: 25%;
     background-color: rgba(255, 255, 255, .7);
-    
+}
+
+.card:hover {
+    /* background: red; */
+}
+.card:hover img {
+    filter: contrast(50%);
+    transition: 0.25s linear;
 }
 
 
@@ -203,13 +216,30 @@ footer{
     width: 256px;
     height: 82px;
 }
+.img-fluid {
+    margin: 0;
+    padding: 0px;
+}
+#facebook {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .ftimg{
     background-color: rgba(48, 227, 203, 0.7);
-    padding: 18px;
+    padding: 20px 20px;
     margin: 8px;
     border-radius: 50%;
 }
+.ftimg:hover {
+    background: #40514E;
+    transition: 0.25s ease-in;
+}
+#facebook {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .logomk{
     background-color: #E4F9F5;
 }
