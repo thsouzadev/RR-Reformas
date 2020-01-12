@@ -6,39 +6,14 @@
 }
 
 /*Top Tags*/
-.tophome{
-    background-image: url("../img/home/home-bg-intro.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 727px;
-}
-.topsobre{
-    background-image: url("../img/sobre/bg-sobre.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 727px;
-}
-.topservicos{
-    background-image: url("../img/servicos/bg-servicos.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 727px;
-}
-.topcontato{
-    background-image: url("../img/contato/bg-contato.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 727px;
+
+.top{
+    z-index: 1;
+    top: 56px;
+    width: 100%;
 }
 
 /*Menu Content*/
-.menu{
-    padding-top: 64px;
-}
 
 a.nav-link{
     color: #fff;
@@ -50,7 +25,7 @@ a.nav-link:hover{
     
 }
 .bkcenter{
-    margin-top: 64px;
+    top: 328px;
 }
 .bgcenter{
     background-color: rgba(17, 153, 158, 0.5);
