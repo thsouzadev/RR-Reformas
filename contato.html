@@ -60,29 +60,40 @@
     <section class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-5 col-md-5">
-                <label class="txt18 my-1" for="name">Nome</label>
+                <form action="enviar.php" method="POST" name="form" class="formphp">
+                    <label class="txt18 my-1" for="name">Nome</label>
                 <div class="input-group inpform">
-                    <input type="text" class="form-control border-0" placeholder="Digite seu nome" aria-label="Username"
+                    <input id="nome" name="nome" type="text" class="form-control border-0" placeholder="Digite seu nome" aria-label="Username"
                         aria-describedby="basic-addon1">
                 </div>
-                <label class="txt18 my-1" for="name">E-mail</label>
+                <label class="txt18 my-1" for="email">E-mail</label>
                 <div class="input-group inpform">
-                    <input type="email" class="form-control border-0" placeholder="seuemail@email.com.br" aria-label="Username"
+                    <input id="email" name="email" type="email" class="form-control border-0" placeholder="seuemail@email.com.br" aria-label="Username"
                         aria-describedby="basic-addon1">
                 </div>
-                <label class="txt18 my-1" for="name">Telefone</label>
+                <label class="txt18 my-1" for="telefone">Telefone</label>
                 <div class="input-group inpform">
-                    <input type="text" class="form-control border-0" placeholder="+55 (DDD)99999-9999" aria-label="Username"
+                    <input id="telefone" name="telefone" type="text" class="form-control border-0" placeholder="+55 (DDD)99999-9999" aria-label="Username"
                         aria-describedby="basic-addon1">
                 </div>
+
+                <!-- Não alterar este bloco -->
+                <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+              <input type="text" class="nao-aparece" name="leaveblank">
+              <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+              <input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+                <!-- Não alterar este bloco -->
+
                 <label class="txt18 my-1" for="name">Mensagem</label>
                 <div class="input-group inpform">
-                    <textarea class="form-control border-0" name="" id="" cols="30" rows="8" placeholder="Digite sua mensagem"></textarea>
+                    <textarea class="form-control border-0" name="mensagem" id="mensagem" cols="30" rows="8" placeholder="Digite sua mensagem"></textarea>
                 </div>
                 <div class="btnbb txt18">
-                    <a class="btn-bt" href="contato.html">Orçamentos</a>
+                    <button id="enviar" name="enviar" type="submit" class="btn-bt">Enviar</a>
                 </div>
             </div>
+            </form>
             <div class="col-6">
                 <div class="ctt txt18 m-4">
                     <img class="m-1" src="img/contato/contato-localizacao.svg" alt="">
