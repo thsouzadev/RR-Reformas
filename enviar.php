@@ -1,16 +1,16 @@
 <?php
 
-require_once("phpmailer/class.phpmailer.php");
+require_once("PHPMailer/class.phpmailer.php");
 
 // Mudar Aqui
 
-$email_envio = 'desenvolvimento@mk2digital.com.br'; // E-mail receptor
-$email_pass = 'mk2dev1234'; // Senha do e-mail
+$email_envio = 'comercial@rrreformas.com.br'; // E-mail receptor
+$email_pass = 'RRreformas1234'; // Senha do e-mail
 
-$site_name = 'mk2digital'; // Nome do Site
-$site_url = 'http://localhost/RR-Reformas/'; // URL do Site
+$site_name = 'RR Reformas'; // Nome do Site
+$site_url = 'http://www.rrreformas.com.br'; // URL do Site
 
-$host_smtp = 'mail.mk2digital.com.br'; // HOST SMTP Ex: smtp.domain.com.br
+$host_smtp = 'mail.rrreformas.com.br'; // HOST SMTP Ex: smtp.domain.com.br
 $host_port = '465'; // Porta do Host
 
 // Variáveis do Formulário
@@ -94,7 +94,7 @@ if(!$mail->send()) {
 	font-family: 'Inconsolata', 'Helvetica', 'Arial', 'sans-serif';
 	font-weight: normal;
 	color: #89bb50;
-	\"><center><span>Formulário Enviado</span><p>Em breve eu entro em contato com você. Abraços.</p></center><h2>";
+	\"><center><span>Email enviado com sucesso!</span><p>Aguarde que entraremos em contato!</p></center><h2>";
 	
 	echo "<html style=\"background: #fff;\"></html>";
 	echo "<meta HTTP-EQUIV='Refresh' CONTENT='2;URL=" . $site_url . "'>";
