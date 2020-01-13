@@ -27,8 +27,6 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 767px;
-    filter: contrast(%)
-    
 }
 
 .topservicos{
@@ -66,8 +64,8 @@ a.nav-link:hover{
 }
 .bgcenter{
     background-color: rgba(17, 153, 158, 0.5);
-    bottom: 186px;
-    padding: 34px 22px;
+    bottom: 12em;
+    padding-top: 36px;
 }
 
 .bgcenter1{
@@ -100,7 +98,9 @@ a.nav-link:hover{
 }
 .txt34{
     font-size: 34px;
-    border-bottom:3px solid white ;
+}
+.ftend h4{
+    border-bottom: 3px solid #fff;
 }
 .txt40{
     font-size: 40px;
@@ -115,7 +115,7 @@ a.nav-link:hover{
 }
 
 .btnwb{
-    margin-top: 32px;
+    margin: 36px 0 36px 0;
 }
 .btn-wt{
     text-decoration: none;
@@ -156,9 +156,7 @@ a.nav-link:hover{
     width: 1366px;
     background-color: #E4F9F5;
 }
-.map{
-    margin-bottom:
-}
+
 
 /*Body home*/
 .boxcenter1{
@@ -176,9 +174,7 @@ a.nav-link:hover{
     background-color: rgba(255, 255, 255, .7);
 }
 
-.card:hover {
-    /* background: red; */
-}
+
 .card:hover img {
     filter: contrast(50%);
     transition: 0.25s linear;
@@ -191,7 +187,6 @@ a.nav-link:hover{
 .prjtx{
     padding-top: 16px;
 }
-
 
 .quoteimg{
     background-image: url("../img/sobre/sobre-blockquote.jpg");
@@ -211,9 +206,6 @@ p.col-12{
 .inpform{
     border: 3px solid #40514E;
 }
-.ctt{
-    margin:
-}
 
 /*footer*/
 footer{
@@ -229,6 +221,7 @@ footer{
     padding-top: 64px;
 }
 .ftsocial{
+    margin-top: 32px;
     width: 256px;
     height: 82px;
 }
@@ -240,9 +233,21 @@ footer{
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.ctt{
+    margin-top: 36px;
+}
+.img-ctt{
+    width: 42px;
+    height: auto;
+}
 .ftimg{
     background-color: rgba(48, 227, 203, 0.7);
+    padding: 20px 20px;
+    margin: 8px;
+    border-radius: 50%;
+}
+.ftimg1{
+    background-color: #40514E;
     padding: 20px 20px;
     margin: 8px;
     border-radius: 50%;
