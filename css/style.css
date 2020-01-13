@@ -66,7 +66,8 @@ a.nav-link:hover{
 }
 .bgcenter{
     background-color: rgba(17, 153, 158, 0.5);
-    padding: 36px 28px 36px 28px;
+    bottom: 186px;
+    padding: 34px 22px;
 }
 
 .bgcenter1{
@@ -194,7 +195,7 @@ a.nav-link:hover{
 
 .quoteimg{
     background-image: url("../img/sobre/sobre-blockquote.jpg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 1366px;
@@ -208,11 +209,10 @@ p.col-12{
     color: white;
 }
 .inpform{
-    
     border: 3px solid #40514E;
 }
 .ctt{
-    margin: 32px;
+    margin:
 }
 
 /*footer*/
@@ -223,7 +223,7 @@ footer{
     background-position: center;
     opacity: 0.8;
     width: 1366px;
-    height: 464px;
+    height: auto;
 }
 .ftend{
     padding-top: 64px;
