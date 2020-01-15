@@ -132,19 +132,34 @@ a.nav-link:hover{
     transition: 0.20s ease-in;
 }
 .btnbb{
-    padding: 25px 0 25px 0;
+    padding: 25px 0px 25px 0px;
 }
 .btn-bt{
     text-decoration: none;
     font-size: 16px;
     border: 3px solid #40514E;
-    color: #40514E; 
-    padding: 10px 15px;
+    color: #40514E;
+    background: none;
+    padding: 10px 25px;
 }
 .btn-bt:hover {
     text-decoration: none;
     background: #40514E;
     color: #fff;
+    transition: 0.20s ease-in;
+}
+.btn-footer {
+    text-decoration: none;
+    font-size: 16px;
+    border: 3px solid #fff;
+    color: #fff; 
+    padding: 10px 25px;
+    background: none;
+}
+.btn-footer:hover {
+    text-decoration: none;
+    background: #fff;
+    color:  #40514E;
     transition: 0.20s ease-in;
 }
 .orf{
@@ -234,7 +249,7 @@ footer{
     margin-top: 36px;
 }
 .img-ctt{
-    width: 42px;
+    width: 35px;
     height: auto;
 }
 .ftimg{
@@ -287,3 +302,169 @@ footer{
 #form-erro {
 	color: #f64540;
 }
+
+
+/* ----------------- RESPONSIVE ------------------- */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    /* HOME */
+    header a img {
+        width: 65%;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+    .resp-intro .txt32 {
+        font-size: 24px;
+    }
+    a {
+        font-size: 14px !important;
+    }
+    p {
+        font-size: 14px !important;        
+    }
+    .carousel-img {
+        width:  70% auto;
+        height: 500px;
+    }
+    .resp-intro {
+        top: -60px;
+    }    
+    .home-projetos .txt24 {
+        font-size: 18px;
+    }
+    footer .txt34 {
+        font-size: 26px;
+    }
+    .text-footer {
+        justify-content: center;
+        text-align: center;
+        max-width: 400px;
+    }
+    .text-footer label {
+        font-size: 16px;
+    }
+    .text-footer input {
+        font-size: 14px;
+    }
+    .text-footer textarea {
+        font-size: 14px;
+    }
+    .text-footer button {
+        font-size: 14px;
+    }
+    .ftsocial {
+        margin: 0 auto;
+    }
+    .logomktx {
+        font-size: 14px;
+    }
+
+    /* SOBRE */
+
+    .topsobre {
+        height: 500px;
+    }
+    .bgcenter1 {
+        padding: 65px 15px;
+    }
+    .about-txt h3 {
+        font-size: 18px !important;
+    }
+    .about-txt p {
+        font-size: 12px !important;
+        max-width: 450px;
+    }
+    .about-txt h4 {
+        font-size: 16px !important;
+    }
+    .about-txt span {
+        font-size: 12px;
+    }
+    .about-txt a {
+        font-size: 14px;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #quality {
+        width: 10%;
+    }
+    #eficience {
+        width: 10%;
+    }
+    #cost {
+        width: 10%;
+    }
+    .quote {
+        height: 300px;
+        width: 100%;
+    }
+    blockquote p {
+        font-size: 24px !important;
+    }
+
+    /* SERVIÇOS */
+
+    .topservicos {
+        height: 500px;
+    }
+    .highlight h3 {
+        font-size: 18px;
+    }
+    .highlight p {
+        font-size: 12px !important;
+        max-width: 450px;
+        text-align: center;
+    }
+    .service-about {
+        display: flex;
+        justify-content: center;
+    }
+    .text-service {
+        font-size: 12px !important;
+        text-align: center;
+    }
+    .orf span {
+        font-size: 12px;
+    }
+
+    /* CONTATO */
+
+    .topcontato {
+        height: 500px;
+    }
+    .contact h3 {
+        font-size: 18px !important;
+    }
+    .contact label {
+        font-size: 16px;
+    }
+    .contact input, .contact textarea, .contact button {
+        font-size: 14px;
+    }
+    .contact-button {
+        text-align: center;
+    }
+    
+    
+    
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

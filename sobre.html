@@ -2,10 +2,14 @@
 <html lang="pt-BR">
 
 <head>
-    <!--METAS-->
+    <!--METAS e SEO-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Contrução e reforma de imóveis em SP, pintura, texturas, grafiatos, 
+    instalações elétricas, iluminação, hidráulica e projetos de engenharia e arquitetura">
+    <link rel="canonical" href="http:///www.rrreformas.com.br/">
+    
     <!--LINKS-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -14,7 +18,7 @@
     <link rel="stylesheet" href="external/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
     <link rel="stylesheet" href="external/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <!--TITLE-->
-    <title>RR-Reformas</title>
+    <title>Sobre Nós - RR Reformas</title>
 </head>
 
 <body>
@@ -58,7 +62,7 @@
             </div>
         </section>
     </header>
-    <section class="container">
+    <section class="container about-txt">
         <div class="row justify-content-center">
             <h3 class="col-sm-12 text-center mt-3 txt24">Um pouco sobre nós</h3>
             <p class="col-10 mt-4 txt16 text-service text-center">A RR Reformas é uma empresa especializada na
@@ -70,28 +74,28 @@
             </p>
         </div>
     </section>
-    <section class="container">
+    <section class="container about-txt">
         <div class="row justify-content-center text-center mt-5">
-            <div class="col-lg-4">
+            <div class="col-lg-4 about-content">
                 <h4 class="col">Qualidade</h4>
-                <img src="img/sobre/sobre-icon-qualidade.svg" alt="" class="img-fluid">
+                <img id="quality" src="img/sobre/sobre-icon-qualidade.svg" alt="icone qualidade" class="img-fluid">
                 <p class="col text-service text-center mt-3">Acabamento minucioso, atenção aos detalhes, limpeza e
                     organização, nosso diferencial de qualidade.</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 about-content">
                 <h4 class="col">Eficiência</h4>
-                <img src="img/sobre/sobre-icon-eficiencia.svg" alt="" class="img-fluid">
+                <img id="eficience" src="img/sobre/sobre-icon-eficiencia.svg" alt="icone eficiencia" class="img-fluid">
                 <p class="col text-service text-center mt-3">Nossas obras têm começo, meio e fim. Chega de perder tempo
                     e dinheiro com obras intermináveis.</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 about-content">
                 <h4 class="col">Custo x Benefício</h4>
-                <img src="img/sobre/sobre-icon-custo.svg" alt="" class="img-fluid">
+                <img id="cost" src="img/sobre/sobre-icon-custo.svg" alt="icone custo x benefício" class="img-fluid">
                 <p class="col text-service text-center mt-3">Aqui garantimos preço justo e flexibilidade, sem deixar de
                     lado a qualidade no que fazemos. </p>
             </div>
         </div>
-        <div class="row justify-content-center text-center">
+        <div class="row justify-content-center text-center about-txt">
             <div class="orf col-lg-12">
                 <span>Gostou? Entre em contato!</span>
             </div>
@@ -100,44 +104,45 @@
             </div>
         </div>
     </section>
-    <section class=" quoteimg container-fluid mt-5">
+    <section class=" quoteimg container-fluid mt-5 quote">
         <blockquote class="blockquote text-center align-items-center qt">
             <p class="col-12 ">RR Reformas <br> #ConstruindoSonhos</p>
         </blockquote>
     </section>
     <footer class="container-fluid text-left text-white">
         <div class="row justify-content-around">
-            <div class="ftend col-sm-12 col-md-6">
+            <div class="ftend col-sm-12 col-md-6 text-footer">
                 <h4 class="txt34">Entre em contato conosco!</h4>
-                <p class="txt18">Rua Maximiliano Lorenzini, 303 - Fundação-São Caetano do Sul - Sâo Paulo-SP</p>
-                <p class="txt18">+55 (11) xxxx-xxxx / xxxxx-xxxx</p>
-                <p class="txt18">contato@rrreformas.com.br</p>
+                <p class="txt18">Rua Maximiliano Lorenzini, 303 - Fundação-São Caetano do Sul - São Paulo-SP</p>
+                <p class="txt18">(11) 94524-9349</p>
+                <p class="txt18">comercial@rrreformas.com.br</p>
                 <div class="ftsocial d-flex">
-                    <a href="" class="ftimg" id="facebook"><img class=" img-fluid" src="img/home/icon-facebook.svg"
+                    <a href="#" class="ftimg" id="facebook"><img class=" img-fluid" src="img/home/icon-facebook.svg"
                             alt="icon-facebook"></a>
-                    <a href="" class="ftimg"><img class=" img-fluid " src="img/home/icon-instagram.svg"
+                    <a href="#" class="ftimg"><img class=" img-fluid " src="img/home/icon-instagram.svg"
                             alt="icon-instagram"></a>
-                    <a href="" class="ftimg"><img class=" img-fluid " src="img/home/icon-linkedin.svg"
+                    <a href="#" class="ftimg"><img class=" img-fluid " src="img/home/icon-linkedin.svg"
                             alt="icon-linkedin"></a>
                 </div>
             </div>
-            <form class="ftend col-12 col-md-5">
+            <form class="ftend col-12 col-md-5 text-footer">
                 <label class="txt18 mb-auto" for="name">Nome</label>
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Username"
+                    <input id="nome" name="nome" type="text" class="form-control" placeholder="Digite seu nome" aria-label="Username"
                         aria-describedby="basic-addon1">
                 </div>
-                <label class="txt18 mt-1 mb-auto" for="name">E-mail</label>
+                <label class="txt18 mt-1 mb-auto" for="email">E-mail</label>
                 <div class="input-group">
-                    <input type="email" class="form-control" placeholder="seuemail@email.com.br" aria-label="Username"
-                        aria-describedby="basic-addon1">
+                    <input id="email" name="email" type="email" class="form-control" placeholder="seuemail@email.com.br"
+                        aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 <label class="txt18 mt-1 mb-auto" for="name">Mensagem</label>
                 <div class="input-group">
-                    <textarea class="form-control mb-3" name="" id="" cols="30" rows="8">Digite sua mensagem</textarea>
+                    <textarea class="form-control mb-3" name="mensagem" id="mensagem" cols="30"
+                        rows="8">Digite sua mensagem</textarea>
                 </div>
                 <div class="btnwb">
-                    <a class="btn-wt" href="contato.html">Enviar</a>
+                    <button id="enviar" name="enviar" type="submit" class="btn-footer">Enviar</a>
                 </div>
             </form>
         </div>
