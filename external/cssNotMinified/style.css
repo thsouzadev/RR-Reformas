@@ -1,0 +1,508 @@
+/*Minimal Normalize*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Top Tags*/
+
+.top{
+    z-index: 1;
+    top: 64px;
+    width: 100%;
+}
+
+.topcontato{
+    background-image: url("../img/contato/bg-contato.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 767px;
+}
+
+.topsobre{
+    background-image: url("../img/sobre/bg-sobre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 767px;
+}
+
+.topservicos{
+    background-image: url("../img/servicos/bg-servicos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 767px;
+}
+
+/*Carousel Config*/
+.carousel-img{
+    width: 100%;
+    height: 767px;
+}
+
+/*Menu Content*/
+
+a.nav-link{
+    color: #fff;
+    
+}
+a.nav-link:hover{
+    color: yellow;
+    transition-delay: 0.5s ease-out;    
+}
+.menu{
+    top: 64px;
+}
+.bkcenter{
+    top: 312px;
+}
+.bkcenter1{
+    margin-top: 146px;
+}
+.bgcenter{
+    background-color: rgba(17, 153, 158, 0.5);
+    bottom: 12em;
+    padding-top: 36px;
+}
+
+.bgcenter1{
+    background-color: rgba(17, 153, 158, 0.5);
+    padding: 86px;
+}
+
+/*Universal Classes*/
+.txt18{
+    font-size: 18px;
+}
+.txt16{
+    font-size: 16px;    
+    line-height: 2em;
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-top: 16px;
+}
+.text-service {
+    text-align: justify;
+    line-height: 35px;
+}
+.txt24{
+    font-size: 24px;
+    font-weight: 600
+}
+.txt32{
+    font-size: 32px;
+    font-weight: initial;
+}
+.txt34{
+    font-size: 34px;
+}
+.ftend h4{
+    border-bottom: 3px solid #fff;
+}
+.txt40{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.owl-carousel{
+    margin-bottom: 32px;
+}
+.mgt32{
+    margin-top: 32px;
+}
+
+
+.btnwb{
+    margin: 36px 0 36px 0;
+}
+.btn-wt{
+    text-decoration: none;
+    font-size: 16px;
+    border: 3px solid #fff;
+    color: #fff; 
+    padding: 10px 15px;
+}
+.btn-wt:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #40514E;
+    transition: 0.20s ease-in;
+}
+.btnbb{
+    padding: 25px 0px 25px 0px;
+}
+.btn-bt{
+    text-decoration: none;
+    font-size: 16px;
+    border: 3px solid #40514E;
+    color: #40514E;
+    background: none;
+    padding: 10px 25px;
+}
+.btn-bt:hover {
+    text-decoration: none;
+    background: #40514E;
+    color: #fff;
+    transition: 0.20s ease-in;
+}
+.btn-footer {
+    text-decoration: none;
+    font-size: 16px;
+    border: 3px solid #fff;
+    color: #fff; 
+    padding: 10px 25px;
+    background: none;
+}
+.btn-footer:hover {
+    text-decoration: none;
+    background: #fff;
+    color:  #40514E;
+    transition: 0.20s ease-in;
+}
+.orf{
+    margin-top: 32px;
+}
+.highlight{
+    width: 1366px;
+}
+.highlight1{
+    width: 1366px;
+    background-color: #E4F9F5;
+}
+
+
+/*Body home*/
+.boxcenter1{
+    margin-top: 80px;
+}
+
+.card-title{
+    color: #40514E;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 25%;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+
+.card:hover img {
+    filter: contrast(50%);
+    transition: 0.25s linear;
+}
+
+.prjtx{
+    padding: 16px 0 32px 0;
+}
+
+.quoteimg{
+    background-image: url("../img/sobre/sobre-blockquote.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1366px;
+    height: 344px;
+}
+blockquote.qt{
+    font-size: 40px;
+}
+p.col-12{
+    top: 111px;
+    color: white;
+}
+.inpform{
+    border: 3px solid #40514E;
+}
+
+/*footer*/
+footer{
+    background-image: url("../img/home/bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    width: 1366px;
+    height: auto;
+}
+.ftend{
+    padding-top: 64px;
+}
+.ftsocial{
+    margin-top: 32px;
+    width: 256px;
+    height: 82px;
+}
+.img-fluid {
+    margin: 0;
+    padding: 0px;
+}
+#facebook {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ctt{
+    margin-top: 36px;
+}
+.img-ctt{
+    width: 35px;
+    height: auto;
+}
+.ftimg{
+    background-color: rgba(48, 227, 203, 0.7);
+    padding: 20px 20px;
+    margin: 8px;
+    border-radius: 50%;
+}
+.ftimg1{
+    background-color: #40514E;
+    padding: 20px 20px;
+    margin: 8px;
+    border-radius: 50%;
+}
+.ftimg:hover {
+    background: #40514E;
+    transition: 0.25s ease-in;
+}
+#facebook {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.logomk{
+    background-color: #E4F9F5;
+}
+.logomktx{
+    border: 1px solid #707070;
+    font-size: 18px;
+    padding: 18px;
+}
+
+/*Style para Hide do Formulário - NÃO ALTERAR*/
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+
+
+/* ----------------- RESPONSIVE ------------------- */
+
+@media (max-width: 360px) {
+    .topcontato {
+        height: 200px;
+    }
+    .bgcenter1 h1 {
+        font-size: 26px!important;
+    }
+    .blockquote p {
+        font-size: 24px!important;
+        padding-bottom: 50px;        
+    }
+    .quoteimg {
+        height: 250px;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    /* HOME */
+    header a img {
+        width: 65%;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+    .resp-intro .txt32 {
+        font-size: 24px;
+    }
+    a {
+        font-size: 14px !important;
+    }
+    p {
+        font-size: 14px !important;        
+    }
+    .carousel-img {
+        width:  70% auto;
+        height: 500px;
+    }
+    .resp-intro {
+        top: -60px;
+    }    
+    .home-projetos .txt24 {
+        font-size: 18px;
+    }
+    footer .txt34 {
+        font-size: 26px;
+    }
+    .text-footer {
+        justify-content: center;
+        text-align: center;
+        max-width: 400px;
+    }
+    .text-footer label {
+        font-size: 16px;
+    }
+    .text-footer input {
+        font-size: 14px;
+    }
+    .text-footer textarea {
+        font-size: 14px;
+    }
+    .text-footer button {
+        font-size: 14px;
+    }
+    .ftsocial {
+        margin: 0 auto;
+    }
+    .logomktx {
+        font-size: 14px;
+    }
+
+    /* SOBRE */
+
+    .topsobre {
+        height: 500px;
+    }
+    .bgcenter1 {
+        padding: 65px 15px;
+    }
+    .about-txt h3 {
+        font-size: 18px !important;
+    }
+    .about-txt p {
+        font-size: 12px !important;
+        max-width: 450px;
+    }
+    .about-txt h4 {
+        font-size: 16px !important;
+    }
+    .about-txt span {
+        font-size: 12px;
+    }
+    .about-txt a {
+        font-size: 14px;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #quality {
+        width: 10%;
+    }
+    #eficience {
+        width: 10%;
+    }
+    #cost {
+        width: 10%;
+    }
+    .quote {
+        height: 300px;
+        width: 100%;
+    }
+    blockquote p {
+        font-size: 24px !important;
+    }
+
+    /* SERVIÇOS */
+
+    .topservicos {
+        height: 500px;
+    }
+    .highlight h3 {
+        font-size: 18px;
+    }
+    .highlight p {
+        font-size: 12px !important;
+        max-width: 450px;
+        text-align: center;
+    }
+    .service-about {
+        display: flex;
+        justify-content: center;
+    }
+    .text-service {
+        font-size: 12px !important;
+        text-align: center;
+    }
+    .orf span {
+        font-size: 12px;
+    }
+
+    /* CONTATO */
+
+    .topcontato {
+        height: 500px;
+    }
+    .contact h3 {
+        font-size: 18px !important;
+    }
+    .contact label {
+        font-size: 16px;
+    }
+    .contact input, .contact textarea, .contact button {
+        font-size: 14px;
+    }
+    .contact-button {
+        text-align: center;
+    }
+    .social{
+        display: none;
+    }
+    .social-contacts {
+        
+    }
+    .icon-social {
+        display: none;
+    }
+    .contact-button {
+        padding-bottom: 0px;;
+    }
+    .ftsocial {
+        margin-bottom: 32px;
+    }
+    .quote-p {
+        font-size: 30px !important;
+    }
+    iframe {
+        height: 300px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    span, label {
+        font-size: 16px!important;
+    }
+    input, button {
+        font-size: 14px !important;
+    }
+    .quote-p {
+        font-size: 36px;
+    }
+}

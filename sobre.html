@@ -3,12 +3,21 @@
 
 <head>
     <!--METAS e SEO-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156336909-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156336909-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Contrução e reforma de imóveis em SP, pintura, texturas, grafiatos, 
     instalações elétricas, iluminação, hidráulica e projetos de engenharia e arquitetura">
-    <link rel="canonical" href="http:///www.rrreformas.com.br/">
+    <link rel="canonical" href="http://www.rrreformas.com.br/">
     
     <!--LINKS-->
     <link rel="stylesheet" href="css/style.css">
@@ -126,7 +135,7 @@
                 </div>
             </div>
             <form class="ftend col-12 col-md-5 text-footer">
-                <label class="txt18 mb-auto" for="name">Nome</label>
+                <label class="txt18 mb-auto" for="nome">Nome</label>
                 <div class="input-group">
                     <input id="nome" name="nome" type="text" class="form-control" placeholder="Digite seu nome" aria-label="Username"
                         aria-describedby="basic-addon1">
@@ -136,13 +145,13 @@
                     <input id="email" name="email" type="email" class="form-control" placeholder="seuemail@email.com.br"
                         aria-label="Username" aria-describedby="basic-addon1">
                 </div>
-                <label class="txt18 mt-1 mb-auto" for="name">Mensagem</label>
+                <label class="txt18 mt-1 mb-auto" for="mensagem">Mensagem</label>
                 <div class="input-group">
                     <textarea class="form-control mb-3" name="mensagem" id="mensagem" cols="30"
                         rows="8">Digite sua mensagem</textarea>
                 </div>
                 <div class="btnwb">
-                    <button id="enviar" name="enviar" type="submit" class="btn-footer">Enviar</a>
+                    <button id="enviar" name="enviar" type="submit" class="btn-footer">Enviar</button>
                 </div>
             </form>
         </div>
