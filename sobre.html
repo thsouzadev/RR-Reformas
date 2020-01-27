@@ -12,6 +12,18 @@
 
         gtag('config', 'UA-156336909-1');
     </script>
+
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="Sobre Nós - RR Reformas"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="A RR Reformas é uma empresa especializada na contrução e reforma de casas, apartamentos e 
+    salas comerciais. Temos grande experiência com pintura, grafiato, elétrica residencial, hidráulica e projetos de engenharia e arquitetura.
+    Entre em contato e faça um orçamento sem compromisso!"/>
+    <meta property="og:image" content="hhtp://rrreformas.com.br/logo.png"/>
+    <meta property="og:url" content="hhtp://rrreformas.com.br"/>
+    <meta property="og:site_name" content="RR Reformas"/>
+    <!--METAS E SEO-->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -35,7 +47,7 @@
     <header class="topsobre">
         <div class="container">
             <nav class="navbar navbar-expand-lg menu">
-                <a class="navbar-brand" href="#"><img src="design/logotipo.png" alt="RR-Reformas Logotipo"></a>
+                <a class="navbar-brand" href="index.html"><img src="design/logotipo.png" alt="RR-Reformas Logotipo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -44,7 +56,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item align-self-end">
-                            <a class="nav-link" href="home.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item align-self-end">
                             <a class="nav-link" href="sobre.html">Sobre</a>
@@ -126,15 +138,15 @@
                 <p class="txt18">(11) 94524-9349</p>
                 <p class="txt18">comercial@rrreformas.com.br</p>
                 <div class="ftsocial d-flex">
-                    <a href="#" class="ftimg" id="facebook"><img class=" img-fluid" src="img/home/icon-facebook.svg"
+                    <a href="https://www.facebook.com/RR-Reformas-Constru%C3%A7%C3%A3o-e-Reformas-102062308024536/" target="_blank" class="ftimg" id="facebook"><img class=" img-fluid" src="img/home/icon-facebook.svg"
                             alt="icon-facebook"></a>
-                    <a href="#" class="ftimg"><img class=" img-fluid " src="img/home/icon-instagram.svg"
+                    <a href="https://www.instagram.com/mkt_RRReformas/?hl=pt-br" target="_blank" class="ftimg"><img class=" img-fluid " src="img/home/icon-instagram.svg"
                             alt="icon-instagram"></a>
-                    <a href="#" class="ftimg"><img class=" img-fluid " src="img/home/icon-linkedin.svg"
-                            alt="icon-linkedin"></a>
+                    <a href="https://wa.me/5511945249349?text=Bem%20vindo%20a%20RR%20Reformas!%20Como%20podemos%20ajudar?" class="ftimg"><img class=" img-fluid " src="img/home/icon-whatsapp.svg"
+                                alt="icon-whatsapp"></a>
                 </div>
             </div>
-            <form class="ftend col-12 col-md-5 text-footer">
+            <form action="enviar.php" method="POST" name="form" class="ftend col-12 col-md-5 text-footer formphp">
                 <label class="txt18 mb-auto" for="nome">Nome</label>
                 <div class="input-group">
                     <input id="nome" name="nome" type="text" class="form-control" placeholder="Digite seu nome" aria-label="Username"
@@ -145,6 +157,15 @@
                     <input id="email" name="email" type="email" class="form-control" placeholder="seuemail@email.com.br"
                         aria-label="Username" aria-describedby="basic-addon1">
                 </div>
+
+                <!-- Não alterar este bloco -->
+                <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+                <input type="text" class="nao-aparece" name="leaveblank">
+                <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+                <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+                <!-- Não alterar este bloco -->
+                
                 <label class="txt18 mt-1 mb-auto" for="mensagem">Mensagem</label>
                 <div class="input-group">
                     <textarea class="form-control mb-3" name="mensagem" id="mensagem" cols="30"
